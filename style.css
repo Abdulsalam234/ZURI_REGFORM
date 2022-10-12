@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+
+body,
+html {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: black;
+    text-align: center;
+    color: #1c7b58;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 50px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+input[type="color"],
+select {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+input[type="color"]:focus,
+select:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #08483e;
+    color: white;
+    padding: 16px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    /* opacity: 0.9; */
+}
+
+.registerbtn:hover {
+    /* opacity: 0.5; */
+    background-color: #060a0a;
+}
+
+/* Add a blue text color to links */
+a {
+    color: rgb(2, 23, 9);
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(13, 33, 26);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container-success {
+    padding: 60px;
+    background-color: white;
+    height: 800px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(13, 33, 26);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container-success h1 {
+    font-size: 50px;
+}
+
+button {
+    background-color: #1c7b58;
+    font-size: 30px;
+    padding: 10px 20px;
+    color: rgb(207, 213, 219);
+}
+
+button a {
+    background-color: #1c7b58;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(207, 213, 219);
+}
+
+
+.container-box {
+    padding: 50px;
+    background-color: white;
+    height: 800px;
+  }
+  input[type=text], input[type=password], input[type=tel] {
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  .loginbtn {
+    background-color: #08483e;
+    color: white;
+    padding: 15px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    /* opacity: 0.9; */
+  }
+  .container-box a{
+      width: 25%;
+      padding: 20px 10px;
+      text-decoration: none;
+      color: #1c7b58;
+  }
+  .container-box a:hover{
+      width: 25%;
+      padding: 5px 10px;
+      text-decoration: none;
+      background-color: #1c7b58;
+      color: white;
+  }
+
+  .shift-down{
+      margin-top:10px;
+  }
